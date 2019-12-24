@@ -1,0 +1,195 @@
+/* http://ryanfait.com/sticky-footer/ ;*/
+html {height: 100%;} /* Needed for explorer */
+html {overflow-y: scroll;} /* Always vertical scrollbar - stops width changes between pages */
+body {height: 100%; margin: 0; padding: 0;}
+#footer, #push {height: 2em;}
+#non-footer {min-height: 100%; height: auto !important; height: 100%; margin: 0 auto -2em auto;}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #E0E0E0;
+	color: black;
+}
+
+img {
+	border: 0px none;
+}
+
+h1, h2, h3, h4 {
+	color: #3F4E57;
+	font-weight: normal;
+}
+
+#heading h1 {
+	font-weight: bold;
+	color: #D8C0AD;
+	font-size: 180%;
+	margin: 0;
+}
+
+h2 {
+	font-size: 200%;
+	margin-top: 0.2em; /* for alignment with scc icon */
+}
+
+hr {
+	border: 0;
+	border-top: 1px solid silver;
+}
+
+A {color: #22f;}
+A:link    { color: #22f; }
+A:visited { color: #88f; }
+/* A:hover   { background-color: #C9C9FC;}
+A:active  { background-color: #C9C9FC;}
+ */
+
+.menu a:visited {color: #F1F1F1;}
+.menu a:link {color: #F1F1F1;}
+
+#heading a {text-decoration: none;}
+#heading a:link  {color: #D8C0AD;}
+#heading a:visited {color: #D8C0AD;}
+#heading a:hover {color: #F1F1F1;}
+
+
+div#non-footer {
+	background-color: #F1F1F1;
+	color: black;
+	max-width: 50em;
+	padding: 0;
+	border: none;
+}
+
+div#footer {
+	margin: 0 auto;
+	max-width: 50em;
+	padding: 0;
+	background-color: #443B32;
+	color: white;
+}
+
+#footer p {
+	margin: 0;
+	padding: 0.5em 0 0 0;
+}
+
+div.box {
+	color: black;
+	padding: 20px; /* for icon offset */
+}
+
+div#heading {
+	background-color: #443B32;
+}
+
+div#footer-menu {
+	background-color: #443B32;
+}
+ 
+div.menu {
+	padding-top: 0;
+	padding-bottom: 0;
+	text-align: right;
+	font-size: small;
+	font-weight: bold;
+	height: 1.5em;
+	margin-top:-1.5em;
+	line-height: 1.5em;
+}
+
+.menu span {
+	vertical-align: bottom;
+	margin: 0;
+	padding: .3em 2ex;
+}
+
+span.thispage {
+	color: #443B32;
+	background-color: #F1F1F1;
+}
+
+.section-menu > ol {
+	float: right;
+	margin: 20px;
+	border: 1px solid silver;
+}
+.section-menu ol {
+	list-style-type: none;
+	padding-left: 1em;
+}
+
+div.breadcrumbs {
+	background-color: #f0f0f0;
+	padding-top: 0;
+	padding-bottom: 0;
+	text-align: left;
+	font-size: small;
+	font-weight: normal;
+	padding-bottom: 2px;
+}
+
+
+input.mailfield {
+	font-family: monospace;
+}
+
+.floatright {
+	float: right;
+}
+.floatleft {
+	float: left;
+}
+.imgmargin {
+	margin: 0 1em 0 0;
+}
+.gamebox {
+	float: left;
+	margin: 0 2em 2em 0;
+	border: 1px solid gray;
+}
+.android-screenshot {
+	margin: 0.5em;
+	border: 1px solid silver;
+}
+
+.screenshot {
+	border: 1px solid gray;
+}
+
+/*img#logo {
+	float: left;
+	margin: 5px 10px 10px 0px;
+}*/
+
+.clear {
+	clear: both;
+}
+
+.smallprint {
+	font-size: small;
+	text-align: center;
+}
+
+a.mdsite-source-link {
+	position: fixed;
+	top: 0;
+	right: 0;
+	background-color: white;
+	padding: 2px;
+	font-weight: bold;
+	border: 1px solid black;
+	/* margin-left:4em; */
+}
+
+.special {display: none;} /* For bot-fields */
+
+.form dt {
+	color: #3F4E57; /* same as hN */
+	font-weight:bold;
+	margin-top: 0.5em;
+}
+
+.form dd {
+	margin: 0;
+}
